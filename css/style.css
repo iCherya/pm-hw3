@@ -1,0 +1,14 @@
+/* Inport styles for each block separetely (like components) to avoid merge problems (maybe) */
+
+@import 'blocks/visually-hidden.css';
+
+/* Variables = Should we use them ? */
+:root {
+    --brand-color-orange: #ff5816;
+    --brand-color-blue: #4673ab;
+}
+
+/* Font */
+html {
+    font-family: 'Roboto', sans-serif;
+}
