@@ -1,6 +1,7 @@
 /* Inport styles for each block separetely (like components) to avoid merge problems (maybe) */
 
 @import 'blocks/visually-hidden.css';
+@import 'blocks/top-menu.css';
 
 /* Variables = Should we use them ? */
 :root {
