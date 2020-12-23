@@ -1,0 +1,93 @@
+.main-menu {
+    display: none;
+}
+
+@media (min-width: 1200px) {
+    .main-menu {
+        position: relative;
+        display: block;
+        width: 1140px;
+        margin: 20px auto;
+    }
+
+    .main-menu ul {
+        position: relative;
+        display: flex;
+        flex-grow: 0;
+        overflow: hidden;
+        height: 48px;
+        background-color: #ff5816;
+        border-radius: 10px;
+    }
+
+    .main-menu li {
+        position: relative;
+        min-height: 100%;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+    }
+
+    .main-menu li:not(:last-child):after {
+        position: absolute;
+        right: 0;
+        top: 0;
+        content: ' ';
+        display: block;
+        width: 1px;
+        height: 100%;
+
+        background: #ff743d;
+    }
+
+    .main-menu li:hover {
+        background-color: #ff743d;
+        cursor: pointer;
+    }
+
+    .main-menu li:first-child {
+        padding-left: 18px;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .main-menu li:last-child {
+        padding-right: 36px;
+        border-radius: 0 10px 10px 0;
+    }
+    .main-menu a {
+        font-size: 12px;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .main-menu__button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 17px;
+        height: 48px;
+        background: #d94206;
+        border: none;
+        border-radius: 0 10px 10px 0;
+        cursor: pointer;
+    }
+
+    .main-menu__button:hover {
+        background-color: #ff8f62;
+    }
+
+    .main-menu__button .arrow {
+        display: inline-block;
+        width: 9px;
+        height: 9px;
+        position: absolute;
+        top: 30px;
+        right: 50%;
+        transform: rotate(-45deg) translateY(-6px) translateX(9px);
+        border: solid white;
+        border-width: 0 3px 3px 0;
+        box-sizing: border-box;
+    }
+}
