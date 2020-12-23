@@ -1,0 +1,13 @@
+.company {
+    display: none;
+}
+
+@media (min-width: 720px) {
+    .company {
+        max-width: 1170px;
+        padding: 0 15px;
+        display: flex;
+        gap: 30px;
+        margin: 20px auto 0;
+    }
+}

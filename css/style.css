@@ -3,6 +3,8 @@
 @import 'blocks/visually-hidden.css';
 @import 'blocks/top-menu.css';
 @import 'blocks/main-menu.css';
+@import 'blocks/company.css';
+@import 'blocks/news.css';
 
 /* Variables = Should we use them ? */
 :root {
