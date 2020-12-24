@@ -5,6 +5,7 @@
 @import 'blocks/main-menu.css';
 @import 'blocks/company.css';
 @import 'blocks/news.css';
+@import 'blocks/sale.css';
 
 /* Variables = Should we use them ? */
 :root {
