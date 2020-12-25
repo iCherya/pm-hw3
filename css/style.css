@@ -10,6 +10,15 @@
 @import 'blocks/social-icons.css';
 @import 'blocks/footer.css';
 @import 'blocks/copyright.css';
+@import 'blocks/block_2.css';
+@import 'blocks/block_5.css';
+@import 'blocks/block_6.css';
+@import 'blocks/block_11.css';
+@import 'blocks/block_13.css';
+@import 'blocks/block_14.css';
+@import 'blocks/block_15.css';
+@import 'blocks/block_16.css';
+@import 'blocks/block_17.css';
 
 /* Variables = Should we use them ? */
 :root {
@@ -20,4 +29,45 @@
 /* Font */
 html {
     font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #040d0d;
+    /* padding: 0 15px; */
+}
+
+a {
+    color: #4673ab;
+}
+
+.wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.section-header {
+    margin: 45px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-header.b {
+    background: url(../img/1px_border.gif) center center repeat-x;
+}
+
+.section-header.w {
+    background: url(../img/1px_border_white.png) center center repeat-x;
+}
+
+h2 {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    position: relative;
+    color: #040d0d;
+    background-color: #fff;
+    padding-right: 10px;
 }

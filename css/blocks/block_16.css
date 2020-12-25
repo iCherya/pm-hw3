@@ -1,0 +1,85 @@
+.default {
+  border-radius: 7px;
+  padding: 13px 22px;
+  background-color: #dbdee6;
+  border: none;
+}
+
+.default > span {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2;
+  color: #ff5816;
+  display: inline-flex;
+  align-items: center;
+  text-transform: uppercase;
+  border-bottom: 1.2px dotted #ff5816;
+}
+
+.default:focus {
+  outline: none;
+}
+
+.default:hover {
+  cursor: pointer;
+}
+
+.how-to-work-with-us {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.how-to-work-with-us > li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.how-to-work-with-us__picture {
+  width: 32px;
+  height: 32px;
+}
+
+.how-to-work-with-us__picture.w-48 {
+  width: 48px;
+}
+
+.how-to-work-with-us__row {
+  margin-right: 25px;
+  display: flex;
+  align-items: center; 
+  flex-shrink: 0;
+}
+
+.how-to-work-with-us__text{
+  width: 200px;
+  padding-left: 10px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #040d0d;
+}
+
+.how-to-work-with-us__text.m-t {
+  margin-top: 53px;
+}
+
+.how-to-work-with-us__text > span {
+  font-weight: bold;
+}
+
+.w-155{
+  width: 155px;
+}
+
+.w-175{
+  width: 175px;
+}
