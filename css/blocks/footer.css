@@ -1,0 +1,221 @@
+.footer {
+    margin-top: 40px;
+    background-color: #5c7489;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 300;
+    color: #c8d4dc;
+}
+.footer a {
+    color: inherit;
+}
+.footer .wrapper {
+    padding: 0 15px;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer__nav {
+    min-width: 100%;
+    order: -1;
+}
+.footer__nav li:after {
+    display: block;
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #dbdee6;
+    transform: translateX(-15px);
+}
+.footer__nav a {
+    color: inherit;
+    line-height: 30px;
+    text-decoration: none;
+}
+.footer__about {
+    padding-top: 35px;
+    max-width: 70%;
+    position: relative;
+}
+.footer__about--description {
+    padding-top: 20px;
+    position: absolute;
+}
+.footer__about--description .copy {
+    padding-top: 15px;
+    width: 150%;
+}
+.footer__about p:first-of-type,
+.footer__contacts p:first-of-type,
+.footer__addres,
+.footer__message {
+    display: none;
+}
+.footer__content {
+    padding-top: 35px;
+    text-align: end;
+    color: #fff;
+    line-height: 20px;
+}
+
+.footer__contacts .phone {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 0.8px;
+}
+.footer__contacts .messenger,
+.footer__contacts .skype {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 4px;
+}
+.footer__contacts .subphone {
+    text-decoration: none;
+    letter-spacing: 0.4px;
+}
+.footer__contacts .social {
+    padding: 40px 0 15px;
+}
+@media (min-width: 720px) {
+    .footer__about p:first-of-type,
+    .footer__contacts p:first-of-type,
+    .footer__addres,
+    .footer__message {
+        display: block;
+    }
+    .footer .wrapper {
+        padding: 40px 15px 20px;
+    }
+    .footer__about {
+        padding-top: 0;
+        width: 25%;
+        margin-right: -15px;
+    }
+    .footer__addres {
+        width: 23%;
+        margin-left: 15px;
+    }
+    .footer__content {
+        padding-top: 0;
+        width: 27%;
+        position: relative;
+    }
+    .footer__nav {
+        max-width: 20%;
+        min-width: 20%;
+        order: 0;
+        margin-top: -7px;
+        margin-left: 15px;
+    }
+    .footer__nav li:after {
+        display: none;
+    }
+    .footer__nav a {
+        line-height: 26px;
+        text-decoration: underline;
+    }
+    .footer__about--description {
+        padding-top: 0;
+        position: static;
+    }
+    .footer__about--description .copy {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .footer__message {
+        position: absolute;
+        bottom: 0;
+        left: -78%;
+    }
+    .footer__message a {
+        position: absolute;
+        width: 64px;
+        left: 17px;
+        top: 12px;
+        font-size: 12px;
+        line-height: 16px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #4673ab;
+        text-align: center;
+    }
+    .footer__contacts .phone {
+        font-size: 22px;
+    }
+    .footer__contacts .email {
+        display: none;
+    }
+}
+@media (min-width: 960px) {
+    .footer__about--description {
+        padding-top: 20px;
+        width: 70%;
+    }
+    .footer__about {
+        width: 33%;
+    }
+    .footer__addres {
+        width: 20%;
+        margin-left: 20px;
+    }
+    .footer__nav {
+        padding-left: 30px;
+    }
+    .footer__content {
+        width: 23%;
+    }
+    .footer__message {
+        left: -75%;
+    }
+    .footer__contacts .skype {
+        display: none;
+    }
+    .footer__contacts .email {
+        display: block;
+    }
+}
+@media (min-width: 1170px) {
+    .footer__about {
+        width: 23%;
+    }
+    .footer__about--description {
+        width: 100%;
+    }
+    .footer__addres {
+        margin-left: 30px;
+    }
+    .footer__nav {
+        padding-left: 30px;
+    }
+    .footer__content {
+        text-align: left;
+        width: 30%;
+        display: flex;
+        padding-left: 20px;
+    }
+    .footer__contacts {
+        margin-left: 15px;
+    }
+    .footer__contacts .messenger,
+    .footer__contacts .skype {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 4px;
+    }
+    .footer__message {
+        position: static;
+    }
+    .footer__message a {
+        left: 37px;
+    }
+    .footer__contacts .skype {
+        display: none;
+    }
+}

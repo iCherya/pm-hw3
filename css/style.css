@@ -7,6 +7,8 @@
 @import 'blocks/news.css';
 @import 'blocks/sale.css';
 @import 'blocks/promo.css';
+@import 'blocks/social-icons.css';
+@import 'blocks/footer.css';
 @import 'blocks/copyright.css';
 
 /* Variables = Should we use them ? */

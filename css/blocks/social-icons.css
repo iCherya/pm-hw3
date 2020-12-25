@@ -1,0 +1,36 @@
+.bg-facebook_icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url('../../img/social/social-sprite.png') -0 -0;
+}
+.bg-skype_icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url('../../img/social/social-sprite.png') -60px -0;
+}
+.bg-twitter_icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url('../../img/social/social-sprite.png') -30px -0;
+}
+.bg-viber_icon {
+    display: inline-block;
+    width: 16px;
+    height: 18px;
+    background: url('../../img/social/social-sprite.png') -30px -30px;
+}
+.bg-vk_icon {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url('../../img/social/social-sprite.png') -0 -30px;
+}
+.bg-whatsapp_icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url('../../img/social/social-sprite.png') -60px -16px;
+}
