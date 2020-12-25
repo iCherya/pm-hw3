@@ -1,0 +1,119 @@
+.promo__content {
+    max-height: 404px;
+}
+.promo__item {
+    height: 404px;
+    padding: 0;
+}
+
+.promo__heading {
+    padding-top: 20px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+.promo__heading a {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #4673ab;
+}
+.promo__img {
+    height: 123px;
+}
+.promo__img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.promo__text {
+    flex-grow: 1;
+    padding: 15px 12px;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 300;
+    color: #040d0d;
+}
+.promo__timer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    background-color: #dbdee6;
+}
+.infinity-sale {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #337500;
+}
+
+.promo__timer--text {
+    display: none;
+    width: 59px;
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 300;
+    color: #1a2222;
+}
+.time__countdown {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 126px;
+    height: 28px;
+    color: #7f8686;
+    background-color: #fff;
+}
+.time__countdown .number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 16px;
+    height: 26px;
+    background-color: #000;
+    font-size: 20px;
+    color: #fff;
+}
+.time__text {
+    display: flex;
+    justify-content: space-around;
+    font-size: 11px;
+    font-weight: 300;
+    color: #7f8686;
+}
+.promo__link {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    margin: 0 auto;
+    font-size: 13px;
+    font-weight: 300;
+    color: #4673ab;
+    text-decoration: underline;
+    justify-self: flex-end;
+}
+@media (min-width: 750px) {
+    .promo__heading {
+        padding-left: 10px;
+        justify-content: flex-start;
+    }
+}
+@media (min-width: 1170px) {
+    .promo__heading {
+        padding-left: 20px;
+    }
+    .promo__timer--text {
+        display: block;
+    }
+    .promo__text {
+        padding: 15px 20px;
+    }
+    .promo__timer {
+        padding: 0 10px;
+    }
+}

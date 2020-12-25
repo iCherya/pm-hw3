@@ -118,6 +118,7 @@
     padding: 5px;
     background-color: #040d0d;
     color: inherit;
+    z-index: 99;
 }
 
 .top-menu__item:hover .top-menu__link.dropdown::after {

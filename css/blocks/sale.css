@@ -1,6 +1,6 @@
 .sale {
     padding: 0 15px;
-    margin: 50px auto 0;
+    margin: 40px auto 0;
     position: relative;
 }
 .sale__header {
@@ -95,7 +95,7 @@
     width: 34px;
     height: 43px;
     position: absolute;
-    top: -2px;
+    top: 0;
     left: 20px;
 }
 .sale.new-items .sale__item--baige {
@@ -227,6 +227,9 @@
     .sale__header--controls {
         width: fit-content;
         align-self: baseline;
+    }
+    .sale__header--title a {
+        display: none;
     }
     .sale__header--link {
         display: block;
