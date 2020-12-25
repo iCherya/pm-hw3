@@ -126,7 +126,7 @@
     transition-duration: 0.25s;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1170px) {
     .top-menu__burger--btn,
     .top-menu__burger--text {
         display: none;
