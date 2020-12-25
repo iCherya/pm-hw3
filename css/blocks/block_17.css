@@ -1,0 +1,33 @@
+.block-17 h2 {
+  color: #fff;
+  background-color: rgba(0,0,0,0);
+}
+
+.some-info {
+  display: flex;
+  flex: 0 1 30%;
+}
+
+.some-info__text {
+  padding-bottom: 90px;
+  width: 50%;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.47;
+  color: #040d0d;
+}
+
+.some-info__text:nth-child(2n + 1) {
+  padding-right: 16px;
+}
+
+.some-info__text:nth-child(2n) {
+  padding-left: 16px;
+}
+
+
+
+.some-info__text  a {
+  color: #ff5816;
+}
