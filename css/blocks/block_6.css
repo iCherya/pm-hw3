@@ -1,0 +1,107 @@
+.block-6 .wrapper {
+  margin-top: 40px;
+  width: 846px;
+  height: 368px;
+  padding-top: 40px;
+  background-image: url(../../img/camera-bg.png);
+  background-size: 846px 368px;
+}
+
+.block-6 .wrapper::before {
+  margin-top: 122px;
+  margin-left: 20px;
+  position: absolute;
+  content: url(../../img/l-arrow.png)
+}
+
+.block-6 .wrapper::after {
+  margin-top: -186px;
+  margin-left: 809px;
+  position: absolute;
+  content: url(../../img/r-arrow.png)
+}
+
+.block-6 .title {
+  margin-left: 66px;
+  text-transform: uppercase;
+  font-family: Roboto;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 29px;
+  font-style: normal;
+  line-height: 0.87;
+}
+
+.block-6 .title .head {
+  font-size: 31px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.33;
+  color: #ff5816;
+}
+
+.block-6 .title span {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.block-6 ul {
+  margin-left: 86px;
+  margin-top: 43px;
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 2;
+  color: #ffffff;
+}
+
+.block-6 .list li {
+  margin-bottom: 4px;
+}
+
+.block-6 .list li::before {
+  margin-left: -20px;
+  margin-top: -16px;
+  font-size: 30px;
+  position: absolute;
+  content: "•"
+}
+
+.block-6 .button {
+  text-transform: uppercase;
+  margin-left: 66px;
+  margin-top: 24px;
+  width: 154px;
+  height: 40px;
+  border-radius: 7px;
+  border: none;
+  box-shadow: inset 0px -3px 0 0 rgba(0, 1, 1, 0.23);
+  background-color: #ffffff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.73;
+  color: #4673ab;
+}
+
+.block-6 .button:hover {
+  cursor: pointer;
+}
+
+.block-6 .rect {
+  display: flex;
+  margin-top: 5px;
+  margin-left: 740px;
+}
+
+.block-6 .rect li {
+  width: 15px;
+  height: 15px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  margin-right: 3px;
+}
+
+.block-6 .rect li.orange {
+  background-color: #ff5816;
+}
