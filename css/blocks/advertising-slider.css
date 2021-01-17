@@ -1,4 +1,4 @@
-.block-6 .wrapper {
+.advertising-slider .wrapper {
   margin-top: 40px;
   width: 846px;
   height: 368px;
@@ -7,21 +7,21 @@
   background-size: 846px 368px;
 }
 
-.block-6 .wrapper::before {
+.advertising-slider .wrapper::before {
   margin-top: 122px;
   margin-left: 20px;
   position: absolute;
   content: url(../../img/l-arrow.png)
 }
 
-.block-6 .wrapper::after {
+.advertising-slider .wrapper::after {
   margin-top: -186px;
   margin-left: 809px;
   position: absolute;
   content: url(../../img/r-arrow.png)
 }
 
-.block-6 .title {
+.advertising-slider .title {
   margin-left: 66px;
   text-transform: uppercase;
   font-family: Roboto;
@@ -32,7 +32,7 @@
   line-height: 0.87;
 }
 
-.block-6 .title .head {
+.advertising-slider .title .head {
   font-size: 31px;
   font-weight: 500;
   font-style: normal;
@@ -40,12 +40,12 @@
   color: #ff5816;
 }
 
-.block-6 .title span {
+.advertising-slider .title span {
   font-size: 18px;
   font-style: italic;
 }
 
-.block-6 ul {
+.advertising-slider ul {
   margin-left: 86px;
   margin-top: 43px;
   font-family: Roboto;
@@ -55,11 +55,11 @@
   color: #ffffff;
 }
 
-.block-6 .list li {
+.advertising-slider .list li {
   margin-bottom: 4px;
 }
 
-.block-6 .list li::before {
+.advertising-slider .list li::before {
   margin-left: -20px;
   margin-top: -16px;
   font-size: 30px;
@@ -67,7 +67,7 @@
   content: "•"
 }
 
-.block-6 .button {
+.advertising-slider .button {
   text-transform: uppercase;
   margin-left: 66px;
   margin-top: 24px;
@@ -84,17 +84,17 @@
   color: #4673ab;
 }
 
-.block-6 .button:hover {
+.advertising-slider .button:hover {
   cursor: pointer;
 }
 
-.block-6 .rect {
+.advertising-slider .rect {
   display: flex;
   margin-top: 5px;
   margin-left: 740px;
 }
 
-.block-6 .rect li {
+.advertising-slider .rect li {
   width: 15px;
   height: 15px;
   border-radius: 4px;
@@ -102,6 +102,6 @@
   margin-right: 3px;
 }
 
-.block-6 .rect li.orange {
+.advertising-slider .rect li.orange {
   background-color: #ff5816;
 }
