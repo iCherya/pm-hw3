@@ -20,12 +20,13 @@
 .footer__nav {
     min-width: 100%;
     order: -1;
+    position: relative;
 }
 .footer__nav li:after {
     display: block;
     content: ' ';
     position: absolute;
-    width: 100%;
+    width: 100vw;
     height: 1px;
     background-color: #dbdee6;
     transform: translateX(-15px);
@@ -34,6 +35,16 @@
     color: inherit;
     line-height: 30px;
     text-decoration: none;
+}
+.footer__nav a:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    background: url('../../img/icons/arrow-right-gray.png');
+    right: 0;
+    width: 6px;
+    height: 9px;
+    transform: translateY(9px);
 }
 .footer__about {
     padding-top: 35px;
@@ -119,6 +130,9 @@
     .footer__nav a {
         line-height: 26px;
         text-decoration: underline;
+    }
+    .footer__nav a:after {
+        display: none;
     }
     .footer__about--description {
         padding-top: 0;

@@ -21,6 +21,10 @@
         border-bottom: 1px dotted #dbdee6;
     }
 
+    .news__item:nth-of-type(n + 4) {
+        display: none;
+    }
+
     .news__image {
         margin-right: 16px;
         position: relative;
