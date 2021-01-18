@@ -1,0 +1,32 @@
+.key-brands-logos {
+  display: flex;
+  margin-right: -30px;
+}
+
+.key-brand-logo {
+  padding: 5px 30px 20px 0px;
+  width: 11.111%;
+}
+
+.key-brand-logo.h-50 {
+  padding-top: 15px;
+  height: 60px;
+}
+
+@media screen and (max-width: 320px) {
+  .key-brands {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .key-brands {
+    display: none;
+  } 
+}
+
+@media screen and (max-width: 980px) {
+  .key-brands {
+    display: none;
+  }  
+}
