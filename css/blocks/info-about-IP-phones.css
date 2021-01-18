@@ -1,4 +1,8 @@
-.block-17 h2 {
+.info-about-IP-phones .section-header {
+  margin: 20px 0;
+}
+
+.info-about-IP-phones h2 {
   color: #fff;
   background-color: rgba(0,0,0,0);
 }

@@ -10,15 +10,16 @@
 @import 'blocks/social-icons.css';
 @import 'blocks/footer.css';
 @import 'blocks/copyright.css';
-@import 'blocks/block_2.css';
-@import 'blocks/block_5.css';
-@import 'blocks/block_6.css';
-@import 'blocks/block_11.css';
-@import 'blocks/block_13.css';
-@import 'blocks/block_14.css';
-@import 'blocks/block_15.css';
-@import 'blocks/block_16.css';
-@import 'blocks/block_17.css';
+@import 'blocks/some-info-4-user.css';
+@import 'blocks/info-header.css';
+@import 'blocks/advertising-slider.css';
+@import 'blocks/buy-right-now.css';
+@import 'blocks/key-brands.css';
+@import 'blocks/strong-sides.css';
+@import 'blocks/reasons-2-choose-our-company.css';
+@import 'blocks/we-r-in-numbers.css';
+@import 'blocks/how-2-work-with-us.css';
+@import 'blocks/info-about-IP-phones.css';
 
 /* Variables = Should we use them ? */
 :root {
