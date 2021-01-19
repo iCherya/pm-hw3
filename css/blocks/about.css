@@ -1,0 +1,28 @@
+.about .wrapper {
+    margin-top: 25px;
+}
+
+.about-info {
+    display: flex;
+    border-top: 1px solid #dbdee6;
+    padding-top: 35px;
+    gap: 30px;
+}
+
+.about-info p {
+    flex: 1 1 50%;
+
+    font-weight: 300;
+    line-height: 1.47;
+    color: #040d0d;
+}
+
+.about-info a {
+    color: #ff5816;
+}
+
+@media (max-width: 700px) {
+    .about {
+        display: none;
+    }
+}

@@ -1,15 +1,16 @@
 @media (min-width: 720px) {
     .news {
         display: flex;
+        width: 35%;
         flex-direction: column;
-        min-width: 33.33%;
+        margin-bottom: 5px;
     }
 
     .news__heading {
-        font-size: 22px;
+        font-size: 21px;
         font-weight: 400;
         line-height: 45px;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
         text-transform: uppercase;
         color: #2c3333;
         border-bottom: 1px solid #dbdee6;
@@ -88,7 +89,7 @@
     }
 
     .news__all {
-        margin-top: 15px;
+        margin-top: 10px;
         font-size: 13px;
         line-height: 20px;
         font-weight: 300;
@@ -96,15 +97,19 @@
         color: #4673ab;
     }
 }
-
-@media (min-width: 980px) {
+@media (min-width: 750px) {
     .news {
-        min-width: 28%;
+        width: 33%;
+    }
+}
+@media (min-width: 960px) {
+    .news {
+        width: 30%;
     }
 }
 
 @media (min-width: 1200px) {
     .news {
-        min-width: 23%;
+        width: 24%;
     }
 }

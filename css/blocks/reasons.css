@@ -1,0 +1,132 @@
+.info-pros-cons .section-header {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.reasons {
+    display: flex;
+    gap: 30px;
+}
+
+.wrapper-for-reasons {
+    border-radius: 10px;
+    flex: 1 1 50%;
+}
+
+.wrapper-for-reasons {
+    border: solid 2px #f6bdbf;
+    height: 100%;
+}
+
+.wrapper-for-reasons.adv {
+    border: solid 2px #9bd1a6;
+}
+
+.wrapper-for-reasons .header {
+    border-radius: 8px 8px 0 0;
+    padding: 5px 30px 5px 65px;
+    height: 75px;
+}
+
+.disadv .header {
+    display: flex;
+    align-items: center;
+    background-color: #cb0b13;
+}
+
+.adv .header {
+    display: flex;
+    align-items: center;
+    background-color: #16a333;
+}
+
+.pin.cross {
+    margin-left: -30px;
+    margin-top: 6px;
+    background-image: url(../../img/cross.png);
+    width: 23px;
+    height: 23px;
+}
+
+.pin.check {
+    margin-left: -35px;
+    background-image: url(../../img/check.png);
+    width: 29px;
+    height: 20px;
+}
+
+.pin {
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.wrapper-for-reasons .title {
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.33;
+    color: #ffffff;
+}
+
+.reasons .content {
+    margin: 20px 20px 40px 50px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.33;
+    color: #040d0d;
+}
+
+.content li {
+    margin-bottom: 10px;
+}
+
+.content li::before {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    font-size: 25px;
+    content: '•';
+    margin-left: -15px;
+    margin-top: -5px;
+}
+
+.disadv .content li::before {
+    color: #cb0b13;
+}
+
+.adv .content li::before {
+    color: #16a333;
+}
+
+.content span {
+    font-weight: 500;
+}
+
+@media (max-width: 1000px) {
+    .wrapper-for-reasons .header {
+        padding-left: 55px;
+    }
+    .reasons .content {
+        margin: 18px 5px 15px 35px;
+    }
+}
+
+@media (max-width: 800px) {
+    .info-pros-cons .section-header {
+        margin-top: 40px;
+    }
+    .wrapper-for-reasons .header {
+        padding-left: 45px;
+        padding-right: 10px;
+    }
+    .reasons .content {
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 700px) {
+    .info-pros-cons {
+        display: none;
+    }
+}

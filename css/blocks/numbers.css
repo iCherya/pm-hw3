@@ -1,0 +1,133 @@
+.we-in-numbers .section-header {
+    margin-top: 30px;
+    position: relative;
+}
+.numbers__header--arrows {
+    display: none;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+}
+
+.numbers li {
+    width: 160px;
+}
+
+.numbers .item {
+    margin: 0 auto;
+    height: 130px;
+    width: 130px;
+    border: solid 1px #dbdee6;
+    border-radius: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.numbers > li {
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers__text {
+    margin: 10px auto 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #040d0d;
+}
+.numbers .numb {
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 0.9;
+    letter-spacing: -4.8px;
+    text-align: center;
+}
+
+.item.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.numb.f-s-54 {
+    font-size: 54px;
+}
+
+.numb.f-s-44 {
+    margin-top: 10px;
+    font-size: 44px;
+    line-height: 0.7;
+    letter-spacing: -2.64px;
+}
+
+.numb.f-s-19 {
+    font-size: 19px;
+    line-height: 0.95;
+    letter-spacing: -1.14px;
+}
+
+.numb.f-s-36 {
+    font-size: 36px;
+    line-height: 0.83;
+    letter-spacing: -2.16px;
+}
+
+.numb.light {
+    color: #ff5816;
+}
+
+.numb.dark {
+    color: #394a5c;
+}
+
+@media (max-width: 1000px) {
+    .we-in-numbers .section-header {
+        margin-top: 45px;
+    }
+}
+
+@media (max-width: 900px) {
+    .numbers__header--arrows {
+        background: white;
+        position: absolute;
+        right: 0;
+        top: 0;
+        padding-left: 15px;
+        display: flex;
+        width: 85px;
+        justify-content: space-between;
+    }
+    .numbers__header--arrows > div {
+        width: 30px;
+        height: 30px;
+        border: 3px solid #dbdee6;
+        border-radius: 50%;
+        background: url('../../img/icons/arrow-small.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+    .numbers__header--arrows > div:hover {
+        border-color: #ff5816;
+    }
+    .numbers__header--arrows > .next-arrow {
+        transform: rotate(180deg);
+    }
+
+    .numbers li:nth-of-type(n + 5) {
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    .we-in-numbers {
+        display: none;
+    }
+}

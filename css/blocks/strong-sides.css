@@ -1,52 +1,79 @@
-.strong-sides .wrapper{
-  margin-top: 45px;
-  border-radius: 10px;
-  background-color: #e3e5eb;
-  padding: 0 30px;
+.strong-sides .wrapper {
+    max-width: 1140px;
+    margin-top: 45px;
+    border-radius: 10px;
+    background-color: #e3e5eb;
+    padding: 0 30px;
 }
 
-
-.strong-sides .section-header{
-  margin: 0 auto;
+.strong-sides .section-header {
+    margin: 0 auto;
 }
 
 h2.inv {
-  background-color: #e3e5eb;
-  padding: 40px 16px 35px 0;
+    background-color: #e3e5eb;
+    padding: 30px 16px 35px 0;
 }
 
 .advantages {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
 }
 
 .advantages .item {
-  margin: 0 auto; 
-  width: 100px;
-  height: 100px;
-  border-radius: 100%;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.advantages > li{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  flex: 0 1 25%;
+.advantages > li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 0 1 25%;
 }
 
 .advantages .adv {
-  font-family: Roboto;
-  width: 200px;
-  margin: 22px auto 0;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 1.5;
-  text-transform: uppercase;
-  text-align: center;
-  color: #040d0d;
+    font-family: Roboto;
+    max-width: 200px;
+    margin: 15px auto 0;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-transform: uppercase;
+    text-align: center;
+    color: #040d0d;
+}
+
+@media (max-width: 1200px) {
+    .strong-sides .wrapper {
+        max-width: calc(100vw - 30px);
+    }
+}
+@media (max-width: 800px) {
+    .strong-sides .wrapper {
+        padding: 0 15px;
+    }
+    .advantages {
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+    .advantages .adv {
+        max-width: 130px;
+        margin-top: 10px;
+    }
+    h2.inv {
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 720px) {
+    .strong-sides {
+        display: none;
+    }
 }

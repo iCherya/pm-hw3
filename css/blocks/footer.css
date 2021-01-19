@@ -1,5 +1,7 @@
+@import './social-icons.css';
+
 .footer {
-    margin-top: 40px;
+    margin-top: 65px;
     background-color: #5c7489;
     font-size: 13px;
     line-height: 18px;
@@ -94,6 +96,9 @@
     padding: 40px 0 15px;
 }
 @media (min-width: 720px) {
+    .footer {
+        margin-top: 55px;
+    }
     .footer__about p:first-of-type,
     .footer__contacts p:first-of-type,
     .footer__addres,
@@ -167,6 +172,9 @@
     }
 }
 @media (min-width: 960px) {
+    .footer {
+        margin-top: 65px;
+    }
     .footer__about--description {
         padding-top: 20px;
         width: 70%;
@@ -195,6 +203,9 @@
     }
 }
 @media (min-width: 1170px) {
+    .footer {
+        margin-top: 70px;
+    }
     .footer__about {
         width: 23%;
     }

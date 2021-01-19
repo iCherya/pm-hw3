@@ -1,38 +1,66 @@
-/* Inport styles for each block separetely (like components) to avoid merge problems (maybe) */
-
 @import 'blocks/visually-hidden.css';
+
+/* Block 1 - Top Menu */
 @import 'blocks/top-menu.css';
+
+/* Block 2 - Header */
+@import 'blocks/header.css';
+
+/* Block 3 - Main Menu */
 @import 'blocks/main-menu.css';
+
+/* Block Company Wrapper */
 @import 'blocks/company.css';
+
+/* Block 4 - Company News */
 @import 'blocks/news.css';
+
+/* Block 5,6 - Advertize Wrapper */
+@import 'blocks/adv.css';
+
+/* Block 5 - Hero heading */
+@import 'blocks/adv-heading.css';
+
+/* Block 6 - Hero slider */
+@import 'blocks/adv-slider.css';
+
+/* Block 7,8,9 - Products */
 @import 'blocks/sale.css';
+
+/* Block 10 - Promo */
 @import 'blocks/promo.css';
-@import 'blocks/social-icons.css';
-@import 'blocks/footer.css';
-@import 'blocks/copyright.css';
-@import 'blocks/some-info-4-user.css';
-@import 'blocks/info-header.css';
-@import 'blocks/advertising-slider.css';
+
+/* Block 11 - Buy right now */
 @import 'blocks/buy-right-now.css';
+
+/* Block 12 - Info - Key Brands */
 @import 'blocks/key-brands.css';
+
+/* Block 13 - Info - Strong sides */
 @import 'blocks/strong-sides.css';
-@import 'blocks/reasons-2-choose-our-company.css';
-@import 'blocks/we-r-in-numbers.css';
-@import 'blocks/how-2-work-with-us.css';
-@import 'blocks/info-about-IP-phones.css';
 
-/* Variables = Should we use them ? */
-:root {
-    --brand-color-orange: #ff5816;
-    --brand-color-blue: #4673ab;
-}
+/* Block 14 - Info - Reasons */
+@import 'blocks/reasons.css';
 
-/* Font */
+/* Block 15 - Info - Numbers */
+@import 'blocks/numbers.css';
+
+/* Block 16 - Info - Work rules */
+@import 'blocks/work-rules.css';
+
+/* Block 17 - Info - About */
+@import 'blocks/about.css';
+
+/* Block 18 - Footer */
+@import 'blocks/footer.css';
+
+/* Block 19 - Copyright */
+@import 'blocks/copyright.css';
+
 html {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     color: #040d0d;
-    /* padding: 0 15px; */
 }
 
 a {
@@ -40,8 +68,9 @@ a {
 }
 
 .wrapper {
-    max-width: 1140px;
+    max-width: 1170px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .section-header {
@@ -60,7 +89,6 @@ a {
 }
 
 h2 {
-    font-family: Roboto;
     font-size: 22px;
     font-weight: 500;
     font-stretch: normal;
