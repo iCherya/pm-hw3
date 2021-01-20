@@ -11,6 +11,7 @@
     background-image: url(../../img/camera-bg.png);
     background-repeat: no-repeat;
     background-position: 75% center;
+    background-size: cover;
 }
 
 .adv-slider .title {
@@ -57,6 +58,7 @@
 
 .adv-slider .slider-button {
     position: absolute;
+    text-decoration: none;
     left: 30px;
     bottom: 50px;
     text-transform: uppercase;

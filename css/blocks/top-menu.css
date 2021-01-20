@@ -174,14 +174,6 @@
         display: none;
     }
 
-    .top-menu__item:first-child {
-        text-align: left;
-    }
-
-    .top-menu__item:last-child {
-        text-align: right;
-    }
-
     .top-menu__item:hover > .top-menu__link.dropdown ~ ul {
         position: absolute;
         top: 30px;
