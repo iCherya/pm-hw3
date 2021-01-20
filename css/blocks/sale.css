@@ -101,10 +101,10 @@
 .sale__item--baige.baige-new {
     background-image: url('../../img/icons/baige-new.png');
 }
-.sale__item--baige.baige-like {
+.sale__item--baige.baige-recommended {
     background-image: url('../../img/icons/baige-like.png');
 }
-.sale__item--baige.baige-discount {
+.sale__item--baige.baige-sale {
     background-image: url('../../img/icons/baige-discount.png');
 }
 .sale__item--image {
